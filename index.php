@@ -22,8 +22,8 @@ get_header();
 			$style .= 'width:'. get_field('size') * $size_default .'px;';
 			$style .= 'height:'. get_field('size') * $size_default .'px;';
 			
-			echo '<div class="square '. $classes .'" style="'. $style .'"><div></div></div>';
-		
+			echo '<div label="'. $post->ID .'" class="square '. $classes .'" style="'. $style .'"><div></div></div>';
+			echo '<div class="backimg" name="'. $post->ID .'" style="background-image: url('. wp_get_attachment_url( get_post_thumbnail_id($post->ID) ) .');"></div>';
 		
 		endwhile;
 	endif;

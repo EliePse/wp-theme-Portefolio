@@ -60,6 +60,7 @@ nav {
 	
 }
 
+
 .mosaic {
 	
 	position: relative;
@@ -68,11 +69,26 @@ nav {
 	
 }
 
+	.backimg {
+		
+		display: none;
+		position: absolute;
+		top: 0; left: 0;
+		width: 450px;
+		height: 450px;
+		
+		background-size: cover;
+		
+		z-index: 2;
+		
+	}
+
 .square {
 	
 	position: absolute;
 	
 	cursor: pointer;
+	z-index: 3;
 	
 }
 	.square div {
