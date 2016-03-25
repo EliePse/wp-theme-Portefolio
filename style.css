@@ -7,3 +7,106 @@ Description: Thème de mon Portefolio
 Version: 1.0
 Tags: portefolio
 */
+
+html, body {
+	
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	
+	background-image: url('img/fond.jpg');
+	
+}
+
+
+
+.content {
+	
+	position: fixed;
+	top: 0; left: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	
+	text-align: center;
+	
+	z-index: 0;
+	
+}
+
+nav {
+	
+	position: absolute;
+	top: 0; left: 0;
+	width: 200px;
+	
+	z-index: 10;
+	
+}
+
+
+.toCenterY {
+	
+	display: inline-block;
+	vertical-align: middle;
+	
+}
+
+.toCenterY.ghost {
+	
+	width: 0;
+	height: 100%;
+	
+}
+
+.mosaic {
+	
+	position: relative;
+	width: 450px;
+	height: 450px;
+	
+}
+
+.square {
+	
+	position: absolute;
+	
+	cursor: pointer;
+	
+}
+	.square div {
+		
+		position: absolute;
+		top: 2px;
+		left: 2px;
+		right: 2px;
+		bottom: 2px;
+		
+	}
+	
+	.square div {
+		
+		transition: all .1s;
+		
+	}
+	
+	.square.orange div {
+		
+		background: rgb(235, 122, 94);
+		border: 5px solid rgb(235, 122, 94);
+		
+	}
+	
+	.square.blue div {
+		
+		background: rgb(72, 167, 189);
+		border: 5px solid rgb(72, 167, 189);
+		
+	}
+	
+	.square.hover div {
+		
+		background: none;
+		
+	}
