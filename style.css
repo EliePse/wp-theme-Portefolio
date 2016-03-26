@@ -14,6 +14,7 @@ html, body {
 	height: 100%;
 	padding: 0;
 	margin: 0;
+	overflow: hidden;
 	
 	font-family: Aller, Arial, sans-serif;
 	
@@ -31,7 +32,7 @@ html, body {
 	top: 0; left: 0;
 	width: 100%;
 	height: 100%;
-	overflow: hidden;
+	overflow: auto;
 	
 	text-align: center;
 	
@@ -131,17 +132,17 @@ nav {
 	max-width: 700px;
 	min-height: 400px;
 	margin: 150px auto 150px auto;
+	padding: 35px 0;
 	background-color: #fff;
 	
 	text-align: left;
 	color: #75716d;
-	overflow: hidden;
 	
 }
 	
 	.post-title {
 		
-		margin: 30px 45px;
+		margin: 0 45px 30px 45px;
 		
 		font-size: 24px;
 		font-weight: bold;
