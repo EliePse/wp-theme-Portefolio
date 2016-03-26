@@ -122,9 +122,54 @@ nav {
 		
 	}
 	
-	
-	
 
+
+
+.post {
+	
+	width: 100%;
+	max-width: 700px;
+	min-height: 400px;
+	margin: 150px auto 150px auto;
+	background-color: #fff;
+	
+	text-align: left;
+	color: #75716d;
+	overflow: hidden;
+	
+}
+	
+	.post-title {
+		
+		margin: 30px 45px;
+		
+		font-size: 24px;
+		font-weight: bold;
+		
+	}
+	
+	.post-content {
+		
+		font-size: 14px;
+		font-weight: 100;
+		line-height: 20px;
+		margin-bottom: 30px;
+		
+	}
+
+	.post-content p {
+		
+		margin: 0 45px;
+		margin-bottom: 15px;
+		
+	}
+	
+	.post img {
+		
+		width: 100%;
+		
+	}
+	
 .toCenterY {
 	
 	display: inline-block;
