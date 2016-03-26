@@ -15,9 +15,13 @@ html, body {
 	padding: 0;
 	margin: 0;
 	
+	font-family: Aller, Arial, sans-serif;
+	
 	background-image: url('img/fond.jpg');
 	
 }
+
+
 
 
 
@@ -38,13 +42,88 @@ html, body {
 nav {
 	
 	position: absolute;
-	top: 0; left: 0;
-	width: 200px;
+	top: 50px; left: 40px; bottom: 50px;
+	
+	font-size: 14px;
+	color: #b0b0b0;
 	
 	z-index: 10;
 	
 }
 
+	nav a {
+		
+		color: inherit;
+		text-decoration: inherit;
+		
+	}
+	
+	nav a:hover {
+		
+		color: inherit;
+		text-decoration: inherit;
+		
+	}
+	
+	h1 {
+		
+		margin: 0;
+		padding: 0;
+		padding-bottom: 12px;
+		border-bottom: 5px solid #96928e;
+		
+		font-size: 52px;
+		font-weight: normal;
+		color: #96928e;
+		
+	}
+	
+	.nav-list {
+		
+		list-style-type: none;
+		padding: 0;
+		margin: 0;
+		margin-top: 20px;
+		
+		font-weight: 100;
+		line-height: 20px;
+		
+	}
+	
+	.nav-list li {
+		
+		cursor: pointer;
+		
+	}
+	
+	.nav-list .hover, .nav-list li:hover {
+		
+		color: #75716d;
+		
+	}
+	
+	.nav-h3 {
+		
+		margin: 0;
+		font-size: inherit;
+		font-weight: bold;
+		
+	}
+	
+	.nav-head {
+		
+		font-weight: bold;
+		
+	}
+	
+	.nav-list-space {
+		
+		margin-bottom: 20px;
+		
+	}
+	
+	
+	
 
 .toCenterY {
 	
