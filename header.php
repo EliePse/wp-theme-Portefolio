@@ -24,14 +24,24 @@
 		<ul class="nav-projects nav-list">
 			<h3 class="nav-h3">Travaux</h3>
 			<?php
-			if (have_posts()) {
-				while (have_posts()) : the_post();
+			
+			$query = new WP_Query(array(
+				'post_type'=>'post',
+				'post_status'=>'publish',
+				'posts_per_page'=>-1,
+				'offset' => 0
+			));
+			
+			if ($query->have_posts()) {
 				
-				echo '<li label="'. $post->ID .'"><a href="'. get_permalink() .'">';
-				the_title();
-				echo '</a></li>';
+				while ($query->have_posts()) {
 				
-				endwhile;
+					$query->the_post();
+					
+					echo '<li label="'. $post->ID .'"><a href="'. get_permalink() .'">'. get_the_title() .'</a></li>';
+				
+				}
+				
 			}
 			?>
 		</ul>

@@ -9,8 +9,18 @@ get_header();
 	<div class="toCenterY ghost"></div>
 	<div class="mosaic toCenterY">
 	<?php
-	if (have_posts()) :
-		while (have_posts()) : the_post();
+	
+	$query = new WP_Query(array(
+		'post_type'=>'post',
+		'post_status'=>'publish',
+		'posts_per_page'=>-1,
+		'offset' => 0
+	));
+	
+	if ($query->have_posts()) :
+		while ($query->have_posts()) :
+			
+			$query->the_post();
 			
 			$size_default = 50;
 			
