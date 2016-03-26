@@ -7,7 +7,7 @@
 		<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/fonts/aller.css">
 		<?php wp_head(); ?>
 </head>
-<body>
+<body class="<?php echo is_home() ? 'home' : ''; ?>">
 	
 	<nav>
 	
