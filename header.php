@@ -27,7 +27,7 @@
 			if (have_posts()) {
 				while (have_posts()) : the_post();
 				
-				echo '<li label="'. $post->ID .'"><a href="'. get_permalink() .'"">';
+				echo '<li label="'. $post->ID .'"><a href="'. get_permalink() .'">';
 				the_title();
 				echo '</a></li>';
 				
