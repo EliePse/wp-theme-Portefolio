@@ -91,17 +91,9 @@ nav {
 		
 	}
 	
-	.nav-list li {
-		
-		cursor: pointer;
-		
-	}
+	.nav-list li { cursor: pointer; }
 	
-	.nav-list .hover, .nav-list li:hover {
-		
-		color: #75716d;
-		
-	}
+	.nav-list .hover, .nav-list li:hover { color: #75716d; }
 	
 	.nav-h3 {
 		
@@ -111,17 +103,9 @@ nav {
 		
 	}
 	
-	.nav-head {
-		
-		font-weight: bold;
-		
-	}
+	.nav-head { font-weight: bold; }
 	
-	.nav-list-space {
-		
-		margin-bottom: 20px;
-		
-	}
+	.nav-list-space { margin-bottom: 20px; }
 	
 
 
@@ -168,9 +152,22 @@ nav {
 	.post img {
 		
 		width: 100%;
+		margin-bottom: 5px;
 		
 	}
 	
+	.post a {
+		color: #adaba5;
+		text-decoration: none;
+	}
+	.post a:hover { color: inherit;	}
+
+
+
+
+
+
+
 .toCenterY {
 	
 	display: inline-block;
