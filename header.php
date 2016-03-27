@@ -3,8 +3,8 @@
 <head>
 	<meta charset="utf-8">
 		<title><?php echo get_bloginfo( 'name' ); ?> - Porteforlio</title>
-		<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css">
 		<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/fonts/aller.css">
+		<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>?v=1" type="text/css">
 		<?php wp_head(); ?>
 </head>
 <body class="<?php echo is_home() ? 'home' : ''; ?>">

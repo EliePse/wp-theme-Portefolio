@@ -165,6 +165,23 @@ nav {
 		
 	}
 	
+	.post .size-full {
+		
+		width: auto;
+		height: auto;
+		
+	}
+	
+	.post .alignleft {
+		margin: 0 25px 15px 0;
+		float: left;
+	}
+	
+	.post .alignright {
+		margin: 0 15px 0 25px;
+		float: right;
+	}
+	
 	.post a {
 		position: relative;
 		z-index: 30;
